@@ -12,7 +12,7 @@
 #define MAX_MSG 100
 
 int main(int argc, char *argv[]){
-	int sd, rc, i;
+	int sd, rc, i = 0;
 	char * car;
 	FILE * file1;
 	struct sockaddr_in localAddr, servAddr;
